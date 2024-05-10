@@ -3,7 +3,7 @@
   <a href="https://github.com/AlexanderCruciata" target="_blank">AlexanderCruciata</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/Homepage.png" />
 </div>
 
 <br/>
