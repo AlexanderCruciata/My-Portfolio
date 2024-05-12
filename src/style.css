@@ -155,6 +155,7 @@ button:focus {
 }
 
 .logo {
+  border: 1px solid white !important;
   height: 2.4em !important;
   width: 4.5em !important;
 }
@@ -265,7 +266,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 5rem 0 2rem !important;
   color: white;
   text-align: left;
 }
@@ -320,12 +321,11 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  /* padding-top: 70px !important; */
 }
 
 .img-fluid {
-  margin-top: 20%;
-  width: 200%;
+  width: 70%;
   border: 1px solid purple;
   border-radius: 5px;
   padding: 5px
@@ -333,7 +333,7 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  /* padding-top: 100px !important; */
   padding-bottom: 20px !important;
   text-align: center;
 }
@@ -513,6 +513,8 @@ button:focus {
 }
 
 .card-img-top {
+  height: 300px;
+  border: none !important;
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;

@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import editor from "../../Assets/Projects/Skyline.jpg";
+import chatify from "../../Assets/Projects/balances.png";
+import bitsOfCode from "../../Assets/Projects/screen.png";
 
 function Projects() {
   return (
@@ -25,9 +22,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              //ghLink="https://github.com/soumyajit4419/Chatify"
+              title="Payment Platform"
+              description="The platform is a financial management solution that simplifies the process of managing payments and balances. With it, users can easily record and manage payments while efficiently managing their available balances, providing a comprehensive and organized view of their financial transactions."
+              ghLink="https://github.com/AlexanderCruciata/AdminPanel"
               //demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -36,9 +33,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="OnlineShop"
+              description="This is the source code of an application for building an e-commerce which can be modified from the browser to become a custom e-commerce or online store. It is built in javascript with Node.js and Mongodb, and it has no dependencies.It works on Node v.16 and Mongodb v.4. We cannot guarantee it would work on a different version."
+              ghLink="https://github.com/AlexanderCruciata/OnlineShop"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -47,9 +44,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              //ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Hotel Management"
+              description="This project is a landing page (website) and management system for small-scale hotel operations with ability to manage/track revenue in short-term and long-term stays, email reservation confirmations, generate financial reports, as well as track housekeeping operations and maintenance logs for multiple motels with more features to come in the future!"
+              ghLink="https://github.com/AlexanderCruciata/HotelManagement"
               //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>

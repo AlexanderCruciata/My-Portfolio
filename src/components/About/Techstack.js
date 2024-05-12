@@ -16,6 +16,7 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiBlockchaindotcom
 } from "react-icons/si";
 import { TbBrandVue } from "react-icons/tb";
 
@@ -53,7 +54,7 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiBlockchaindotcom />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
