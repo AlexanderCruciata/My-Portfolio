@@ -24,13 +24,13 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C/C++, Javascript and Java. </b>
+                <b className="purple"> C/C++, Javascript and Python. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">AI Bot Technologies and WebSite Development </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Blockchain.
@@ -52,6 +52,8 @@ function Home2() {
               </i>
               <br />
               I enjoy taking on new <b className="purple">challenges</b> and solving <b className="purple">complex</b> programming tasks. 
+              <br />
+              Last 2 years, I have shifted my focus towards <b className="purple">Bot Development</b>, such as <b className="purple">Telegram</b> & <b className="purple">Discord</b> Bot and <b className="purple">Cypto Trading</b> Bot. I have worked mostly in <b className="purple">Solana trading</b> bots, specializing in <b className="purple">sandwitch</b>, <b className="purple">sniper</b>, and <b className="purple">arbitrage</b> strategies. 
             </p>
           </Col>
         </Row>
