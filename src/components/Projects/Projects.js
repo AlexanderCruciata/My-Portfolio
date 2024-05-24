@@ -32,14 +32,13 @@ function Projects() {
               //demoLink="https://chatify-49.web.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={villa}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Villa Luxe Hotel"
-              description="Villa Luxe is a hotel website that can be used for online reservations. Built using the TALL Stack: Tailwind CSS3, AlpineJS, Livewire2, Laravel. I actually made the UI here myself using Tailwind CSS and AplineJS without using any templates at all."
-              ghLink="https://github.com/AlexanderCruciata/Villa-Luxe"
+              title="Token Swap Program"
+              description="This project demonstrates how to perform a token swap on the Solana blockchain using Raydium and Chainstack. The example specifically illustrates swapping SOL (native Solana token) for USDC (a stablecoin)."
+              ghLink="https://github.com/AlexanderCruciata/OnlineShop"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -60,7 +59,7 @@ function Projects() {
             <ProjectCard
               imgPath={mytoken}
               isBlog={false}
-              title="My own Ethereum Token"
+              title="My own Solana Token"
               description="A simple Solana Smart Contract for minting NFTs
               ArtToken (ART) - ERC 20 Token ERC20 Token - With sell, buy, mint and transfer functions.This repository has the tokens as single files. This makes it easier for contributors to add new tokens, for reviewers to get a good view on the change and also makes it easier to merge in tokens from other sources. "
               ghLink="https://github.com/AlexanderCruciata/My-token"
@@ -70,11 +69,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={villa}
               isBlog={false}
-              title="OnlineShop"
-              description="This is the source code of an application for building an e-commerce which can be modified from the browser to become a custom e-commerce or online store. It is built in javascript with Node.js and Mongodb, and it has no dependencies.It works on Node v.16 and Mongodb v.4. We cannot guarantee it would work on a different version."
-              ghLink="https://github.com/AlexanderCruciata/OnlineShop"
+              title="Villa Luxe Hotel"
+              description="Villa Luxe is a hotel website that can be used for online reservations. Built using the TALL Stack: Tailwind CSS3, AlpineJS, Livewire2, Laravel. I actually made the UI here myself using Tailwind CSS and AplineJS without using any templates at all."
+              ghLink="https://github.com/AlexanderCruciata/Villa-Luxe"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
