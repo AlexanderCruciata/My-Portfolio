@@ -51,9 +51,14 @@ function Home2() {
                 <b className="purple"> React.js and Next.js</b>
               </i>
               <br />
+              <br />
               I enjoy taking on new <b className="purple">challenges</b> and solving <b className="purple">complex</b> programming tasks. 
               <br />
-              Last 2 years, I have shifted my focus towards <b className="purple">Bot Development</b>, such as <b className="purple">Telegram</b> & <b className="purple">Discord</b> Bot and <b className="purple">Cypto Trading</b> Bot. I have worked mostly in <b className="purple">Solana trading</b> bots, specializing in <b className="purple">sandwitch</b>, <b className="purple">sniper</b>, and <b className="purple">arbitrage</b> strategies. 
+              <br />
+              Last 2 years, I have shifted my focus towards <b className="purple">Bot Development</b>, such as <b className="purple">Telegram</b> & <b className="purple">Discord</b> Bot and <b className="purple">Cypto Trading</b> Bot.
+              <br/>
+              <br/> 
+              I have worked mostly in <b className="purple">Solana trading</b> bots, specializing in <b className="purple">sandwitch</b>, <b className="purple">sniper</b>, and <b className="purple">arbitrage</b> strategies. 
             </p>
           </Col>
         </Row>
