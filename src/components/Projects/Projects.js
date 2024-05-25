@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="Solana Raydium Bot"
               description="This is a Raydium bot based on the solana. This bot fetches the real-time trading data from raydium pool using WebSocket RPC."
-              ghLink="https://github.com/AlexanderCruciata/raydium-bot"
+              ghLink="https://github.com/AlexanderCruciata/Solana-Raydium-bot"
               //demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="Token Swap Program"
               description="This project demonstrates how to perform a token swap on the Solana blockchain using Raydium and Chainstack. The example specifically illustrates swapping SOL (native Solana token) for USDC (a stablecoin)."
-              ghLink="https://github.com/AlexanderCruciata/OnlineShop"
+              ghLink="https://github.com/AlexanderCruciata/Token-swap-program"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
