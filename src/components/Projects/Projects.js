@@ -9,6 +9,9 @@ import raydium from "../../Assets/Projects/tradingbot.png";
 import sniper from "../../Assets/Projects/sniper.png";
 import villa from "../../Assets/Projects/villa.png";
 import mytoken from "../../Assets/Projects/mytoken.png";
+import bus from "../../Assets/Projects/bus.png";
+import veggie from "../../Assets/Projects/veggie.png";
+
 
 function Projects() {
   return (
@@ -22,6 +25,40 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mytoken}
+              isBlog={false}
+              title="My own Solana Token"
+              description="A simple Solana Smart Contract for minting NFTs
+              ArtToken (ART) - ERC 20 Token ERC20 Token - With sell, buy, mint and transfer functions.This repository has the tokens as single files. This makes it easier for contributors to add new tokens, for reviewers to get a good view on the change and also makes it easier to merge in tokens from other sources. "
+              ghLink="https://github.com/AlexanderCruciata/My-token"
+              //demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={veggie}
+              isBlog={false}
+              title="VeggieVille(Vegetable Shopping)"
+              description="This Project is Online shopping for grocery (Vegetables and fruits ) fresh from farmers which is build using Reactjs and backend as Firebase Cloud, featuring a user-friendly interface, essential functionalities like user registration, login, shopping cart. The platform is built on the React.js framework and employs technologies such as CORS, Axios, and Mongoose."
+              ghLink="https://github.com/AlexanderCruciata/VegetableShop-VeggieVille"
+              //demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bus}
+              isBlog={false}
+              title="Bus-Ticket Booking"
+              description="A centralised bus ticket booking system that will allow the students to book tickets in advance through an online website, saving time and effort. Students will no longer need to physically stand in long queues to purchase tickets. The ticket booking system will provide a user-friendly interface where passengers can search for available routes, select their desired travel date and time and make secure online payments."
+              ghLink="https://github.com/AlexanderCruciata/Bus-Ticket-System"
+              //demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={raydium}
@@ -52,18 +89,6 @@ function Projects() {
               This bot analyze the specific token and obeserve the PNL price of token using  CoinMarket API and Web3 API."
               ghLink="https://github.com/AlexanderCruciata/AI-PNL-Bot"
               //demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mytoken}
-              isBlog={false}
-              title="My own Solana Token"
-              description="A simple Solana Smart Contract for minting NFTs
-              ArtToken (ART) - ERC 20 Token ERC20 Token - With sell, buy, mint and transfer functions.This repository has the tokens as single files. This makes it easier for contributors to add new tokens, for reviewers to get a good view on the change and also makes it easier to merge in tokens from other sources. "
-              ghLink="https://github.com/AlexanderCruciata/My-token"
-              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
