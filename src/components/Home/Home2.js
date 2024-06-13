@@ -4,8 +4,7 @@ import myImg from "../../Assets/Alex.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillLinkedin,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -66,13 +65,23 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me <a
+              Feel free to <span className="purple">connect </span>with me  <a
                   href="https://github.com/AlexanderCruciata"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
+                  
+                </a>
+                &nbsp;&nbsp;
+                <a
+                  href="https://www.linkedin.com/in/alexander-cruciata-968027312/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillLinkedin />
                 </a>
             </p>
           </Col>
