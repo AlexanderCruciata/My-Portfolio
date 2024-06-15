@@ -76,7 +76,7 @@ function Home2() {
                 </a>
                 &nbsp;&nbsp;
                 <a
-                  href="https://www.linkedin.com/in/alexander-cruciata-968027312/"
+                  href="https://www.linkedin.com/in/alexander-cruciata1012/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
