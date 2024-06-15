@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/Skyline.jpg";
-import chatify from "../../Assets/Projects/balances.png";
+//import chatify from "../../Assets/Projects/balances.png";
 import bitsOfCode from "../../Assets/Projects/screen.png";
 import raydium from "../../Assets/Projects/tradingbot.png";
 import sniper from "../../Assets/Projects/sniper.png";
@@ -11,7 +11,7 @@ import villa from "../../Assets/Projects/villa.png";
 import mytoken from "../../Assets/Projects/mytoken.png";
 import bus from "../../Assets/Projects/bus.png";
 import veggie from "../../Assets/Projects/veggie.png";
-
+import doctor from "../../Assets/Projects/doctor.png";
 
 function Projects() {
   return (
@@ -50,11 +50,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bus}
+              imgPath={doctor}
               isBlog={false}
-              title="Bus-Ticket Booking"
-              description="A centralised bus ticket booking system that will allow the students to book tickets in advance through an online website, saving time and effort. Students will no longer need to physically stand in long queues to purchase tickets. The ticket booking system will provide a user-friendly interface where passengers can search for available routes, select their desired travel date and time and make secure online payments."
-              ghLink="https://github.com/AlexanderCruciata/Bus-Ticket-System"
+              title="Dentist Website"
+              description="This is a demo website. It was created for a medical team, which is dedicated to the care of patients. Patients can easily book an appointment and the doctors in charge can see the booked appointment. The sign-in login system has been simplified here and the setting option is checked where the user can update the profile."
+              ghLink="https://github.com/AlexanderCruciata/Dentist-Website"
               //demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -89,6 +89,17 @@ function Projects() {
               This bot analyze the specific token and obeserve the PNL price of token using  CoinMarket API and Web3 API."
               ghLink="https://github.com/AlexanderCruciata/AI-PNL-Bot"
               //demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bus}
+              isBlog={false}
+              title="Bus-Ticket Booking"
+              description="A centralised bus ticket booking system that will allow the students to book tickets in advance through an online website, saving time and effort. Students will no longer need to physically stand in long queues to purchase tickets. The ticket booking system will provide a user-friendly interface where passengers can search for available routes, select their desired travel date and time and make secure online payments."
+              ghLink="https://github.com/AlexanderCruciata/Bus-Ticket-System"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
