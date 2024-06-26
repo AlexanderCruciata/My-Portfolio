@@ -102,16 +102,6 @@ function Projects() {
               //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bus}
-              isBlog={false}
-              title="Bus-Ticket Booking"
-              description="A centralised bus ticket booking system that will allow the students to book tickets in advance through an online website, saving time and effort. Students will no longer need to physically stand in long queues to purchase tickets. The ticket booking system will provide a user-friendly interface where passengers can search for available routes, select their desired travel date and time and make secure online payments."
-              ghLink="https://github.com/AlexanderCruciata/Bus-Ticket-System"
-              //demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -121,6 +111,17 @@ function Projects() {
               description="Villa Luxe is a hotel website that can be used for online reservations. Built using the TALL Stack: Tailwind CSS3, AlpineJS, Livewire2, Laravel. I actually made the UI here myself using Tailwind CSS and AplineJS without using any templates at all."
               ghLink="https://github.com/AlexanderCruciata/Villa-Luxe"
               //demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bus}
+              isBlog={false}
+              title="Bus-Ticket Booking"
+              description="A centralised bus ticket booking system that will allow the students to book tickets in advance through an online website, saving time and effort. Students will no longer need to physically stand in long queues to purchase tickets. The ticket booking system will provide a user-friendly interface where passengers can search for available routes, select their desired travel date and time and make secure online payments."
+              ghLink="https://github.com/AlexanderCruciata/Bus-Ticket-System"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
         </Row>
