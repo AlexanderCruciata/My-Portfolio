@@ -92,6 +92,16 @@ function Projects() {
             />
           </Col>
 
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Big Sky Lodge Hotel"
+              description="This project is a landing page (website) and management system for small-scale hotel operations with ability to manage/track revenue in short-term and long-term stays, email reservation confirmations, generate financial reports, as well as track housekeeping operations and maintenance logs for multiple motels with more features to come in the future!"
+              ghLink="https://github.com/AlexanderCruciata/HotelManagement"
+              //demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bus}
@@ -111,17 +121,6 @@ function Projects() {
               description="Villa Luxe is a hotel website that can be used for online reservations. Built using the TALL Stack: Tailwind CSS3, AlpineJS, Livewire2, Laravel. I actually made the UI here myself using Tailwind CSS and AplineJS without using any templates at all."
               ghLink="https://github.com/AlexanderCruciata/Villa-Luxe"
               //demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Big Sky Lodge Hotel"
-              description="This project is a landing page (website) and management system for small-scale hotel operations with ability to manage/track revenue in short-term and long-term stays, email reservation confirmations, generate financial reports, as well as track housekeeping operations and maintenance logs for multiple motels with more features to come in the future!"
-              ghLink="https://github.com/AlexanderCruciata/HotelManagement"
-              //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
         </Row>
